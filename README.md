@@ -12,6 +12,7 @@ A powerful [`take` effect](https://yelouafi.github.io/redux-saga/docs/api/index.
 ### Before
 
 ```
+// Ooops, so long...
 const action = yield take(['SUCCESS_LOGIN', 'SUCCESS_LOGOUT', 'SUCCESS_GET_HOGE', 'SUCCESS_PUT_HOGE', ...]);
 ```
 
@@ -59,14 +60,6 @@ function* mySaga() {
 npm install
 npm run build
 ```
-
-### Start example
-
-```
-npm start
-```
-
-And open `http://localhost:8080/`.
 
 
 ## Changelog

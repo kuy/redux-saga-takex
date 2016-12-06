@@ -1,10 +1,7 @@
-// @flow
-
 import { call, take } from 'redux-saga/effects';
-import type { TakeEffect, CallEffect1 } from 'redux-saga/effects';
 
-function* takexSaga(pattern: RegExp): Generator<TakeEffect<string>, ?Action, void> {
-  let action: ?Action;
+function* takexSaga(pattern) {
+  let action;
   while (true) {
     action = yield take('*');
     if (action && pattern.test(action.type)) {
@@ -13,6 +10,6 @@ function* takexSaga(pattern: RegExp): Generator<TakeEffect<string>, ?Action, voi
   }
 }
 
-export default function takex(pattern: RegExp): CallEffect1<null, function, RegExp> {
+export default function takex(pattern) {
   return call(takexSaga, pattern);
 }

@@ -5,8 +5,9 @@
 
 A powerful [`take` effect](https://yelouafi.github.io/redux-saga/docs/api/index.html#takepattern) accepting RegExp instead of listing action types.
 
+**NOTICE: This package is still under development.**
 
-## tl; dr
+## TL; DR
 
 ### Before
 
@@ -47,7 +48,7 @@ function* mySaga() {
 
 ## Example
 
-Please check [example]() directory on [Github](https://github.com/kuy/redux-saga-takex).
+*WIP*
 
 
 ## Development
@@ -72,9 +73,11 @@ And open `http://localhost:8080/`.
 
 See the [Releases](https://github.com/kuy/redux-saga-takex/releases) page on GitHub.
 
+
 ## License
 
 MIT
+
 
 ## Author
 

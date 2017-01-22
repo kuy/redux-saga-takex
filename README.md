@@ -3,6 +3,8 @@
 
 # redux-saga-takex
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kuy/redux-saga-takex.svg)](https://greenkeeper.io/)
+
 A powerful [`take` effect](https://yelouafi.github.io/redux-saga/docs/api/index.html#takepattern) accepting RegExp instead of listing action types.
 
 **NOTICE: This package is still under development.**
